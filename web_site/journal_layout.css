@@ -1,0 +1,60 @@
+body{
+	background-color: lightblue;
+}
+#content{
+	background-color: white;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: 10px solid white;
+	overflow: hidden;
+	width: 80%;
+}
+
+#intro{
+	text-align: right;
+	background-color: #A8F0F0;
+}
+
+#intro h2{
+	font-size: 14pt;
+}
+
+.newsbar{
+	background-color: #A8F0F0;
+	border: 4px solid rgb(0, 144, 151);
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.post{
+	border: 4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+
+}
+
+
+.post img{
+	float: right;
+}
+.date{
+	border-bottom: 2px dashed blue;
+}
+
+
+
+/*SHITcoding with Flexbox*/
+
+#main{
+	display: flex;
+}
+.newsbar{
+	flex:20%;
+	align-self: flex-start;
+}
+#post_container{
+	flex:78%;
+	margin-left: 2%;
+}
