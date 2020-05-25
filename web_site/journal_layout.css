@@ -35,17 +35,12 @@ body{
 
 }
 
-
 .post img{
 	float: right;
 }
 .date{
 	border-bottom: 2px dashed blue;
 }
-
-
-
-/*SHITcoding with Flexbox*/
 
 #main{
 	display: flex;
